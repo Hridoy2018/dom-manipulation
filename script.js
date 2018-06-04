@@ -28,3 +28,12 @@ function redirectToGoogle(){
 }
 
 /* Task 4 using jQuery */
+
+
+//task4
+
+$('#addText4').click(function(event){
+    var paragraph =$('<p>').text('Hello world')
+    $('#task4a').append(paragraph)
+    
+})
