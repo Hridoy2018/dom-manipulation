@@ -30,10 +30,17 @@ function redirectToGoogle(){
 /* Task 4 using jQuery */
 
 
-//task4
+//task4a
 
 $('#addText4').click(function(event){
     var paragraph =$('<p>').text('Hello world')
     $('#task4a').append(paragraph)
     
 })
+
+//task4b
+
+function changeBG(event){
+    var color = event.target.innerText.toLowerCase();
+    $('body').css('backround-color,color')
+}
